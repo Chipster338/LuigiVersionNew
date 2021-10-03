@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/camera_dummy_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="260dp"
+        android:text="Camera Function"
+        />
+
+    <TextView
+        android:id="@+id/image_proc_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="156dp"
+        android:text="Image Processing"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
